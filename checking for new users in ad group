@@ -1,4 +1,6 @@
- Function Get-ADGroupMemberDate {
+#checking for new users in ad group in last 2 days#
+
+Function Get-ADGroupMemberDate {
   
     [OutputType('ActiveDirectory.Group.Info')]
     [cmdletbinding()]
